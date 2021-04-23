@@ -38,6 +38,7 @@ button {
     background-color: black;
     border-color: red;
     font-size: larger;
+    font-family: Arial;
     opacity: 0%;
 }
 

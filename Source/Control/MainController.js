@@ -94,6 +94,12 @@ class MainController {
 	MainController.imageManager.hideImage();
     }
 
+    static hideImageFade(fadeTime, endCallback)
+    {
+	MainController.imageManager.hideImageFade(fadeTime, endCallback);
+    }
+
+
     static prepareImage(imagePath)
     {
 	MainController.imageManager.prepare(imagePath);

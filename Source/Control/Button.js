@@ -33,7 +33,7 @@ class Button {
     // fade in over fadeTime milliseconds
     enableFade(fadeTime)
     {
-	var fadeController = new FadeController(fadeTime, this.buttonElement.style);
+	var fadeController = new FadeController(0, 1, fadeTime, this.buttonElement.style, function(){});
 	fadeController.start();
 	this.buttonElement.disabled = false;
     }

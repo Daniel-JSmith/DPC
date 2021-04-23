@@ -28,6 +28,11 @@ class ImageManager {
 	setTimeout(function() {this.image.disable();}.bind(this), MainController.MILLISECONDS_PER_FRAME);
     }
 
+    hideImageFade(fadeTime, endCallback)
+    {
+	this.image.fadeOut(fadeTime, endCallback);
+    }
+
     prepare(imagePath)
     {
 	this.image.setImage(imagePath);

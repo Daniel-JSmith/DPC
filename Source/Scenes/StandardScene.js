@@ -31,12 +31,16 @@ class StandardScene extends VideoScene {
     prepare()
     {
 	super.prepare();
+    }
+
+    start()
+    {
+	super.start();
 	MainController.prepareVideo(this.idleURL);
     }
 
     stop()
     {
-	super.stop();
 	MainController.hideButtons();
     }
 
