@@ -28,9 +28,9 @@ function initialize()
 	'4B' : new StandardScene(['5B-F4B-F3B', '5C-F4B-F3B'], 'HE SHOULD TELL PEOPLE ABOUT IT', 'HE SHOULD KEEP IT A SECRET', 'Assets/Footage/4B.mp4', 'Assets/Footage/4B-idl.mp4'),
 	
 	'5A' : new AutoProgressScene(['5AEnd'], 'Assets/Footage/5A.mp4'),
-	'5B-normal' : new AutoProgressScene(['5BEnd'], 'Assets/Footage/5B(normal).mp4'),
+	'5B-normal' : new AutoProgressScene(['5BEnd'], 'Assets/Footage/5B(Normal).mp4'),
 	'5B-F4B-F3B' : new AutoProgressScene(['5BEnd'], 'Assets/Footage/5B(F4B(F3B)).mp4'),
-	'5C-normal' : new AutoProgressScene(['5CEnd'], 'Assets/Footage/5C(normal).mp4'),
+	'5C-normal' : new AutoProgressScene(['5CEnd'], 'Assets/Footage/5C(Normal).mp4'),
 	'5C-F4B-F3B' : new AutoProgressScene(['5CEnd'], 'Assets/Footage/5C(F4B(F3B)).mp4'),
 	'5D' : new AutoProgressScene(['5DEnd'], 'Assets/Footage/5D.mp4'),
 	'5F' : new AutoProgressScene(['5FEnd'], 'Assets/Footage/5F.mp4'),
