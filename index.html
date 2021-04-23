@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>bean?</title>
+    <link rel="icon" href="Assets/Images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload = "initialize();">
+    <video preload="auto" id="player0" class="ScreenContent">
+      <source src="" type="video/mp4" id="source0">
+    </video>
+    <video preload="auto" id="player1" class="ScreenContent">
+      <source src="" type="video/mp4" id="source1">
+    </video>
+    <video preload="auto" id="player2" class="ScreenContent">
+      <source src="" type="video/mp4" id="source2">
+    </video>
+    <video preload="auto"  id="player3" class="ScreenContent">
+      <source src="" type="video/mp4" id="source3">
+    </video>
+    <img src="Assets/Images/Start.png" id="image0" class="ScreenContent">
+      
+    <div class="startContainer">
+      <button id="buttonCenter">center</button>
+    </div>
+    <div class="buttonContainer">
+      <button id="buttonLeft">left</button>
+      <button id="buttonRight">right</button>
+    </div>
+  </div>
+
+  </body>
+
+  <script src="Source/Scenes/Scene.js"></script>
+  <script src="Source/Control/ButtonContent.js"></script>
+  <script src="Source/Control/ButtonManager.js"></script>
+  <script src="Source/Control/Button.js"></script>
+  <script src="Source/Control/Player.js"></script>
+  <script src="Source/Control/PlayerManager.js"></script>
+  <script src="Source/Control/Image.js"></script>
+  <script src="Source/Control/ImageManager.js"></script>
+  <script src="Source/Control/FadeController.js"></script>
+  <script src="Source/Control/MainController.js"></script>
+  <script src="Source/Scenes/StartScene.js"></script>
+  <script src="Source/Scenes/VideoScene.js"></script>
+  <script src="Source/Scenes/AutoProgressScene.js"></script>
+  <script src="Source/Scenes/ImageScene.js"></script>
+  <script src="Source/Scenes/StandardScene.js"></script>
+  <script src="Source/Scenes/RestartScene.js"></script>
+  <script src="Source/Driver/Initialize.js"></script>
+
+</html>
